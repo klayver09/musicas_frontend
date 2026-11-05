@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #222;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header a {
+    background-color: white;
+    color: #2563eb;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+#listaMusicas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.musica {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.musica h2 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+.artista {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.detalhes {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.editar {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.apagar {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
